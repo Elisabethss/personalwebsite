@@ -85,14 +85,10 @@
 	body {
 		height: 100%;
 		background-color: #ffffff;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-repeat: repeat,			no-repeat,			no-repeat;
-		background-size: 100px 100px, cover,				cover;
-		background-position: top left,		center center,		bottom center;
-		background-attachment: fixed,			fixed,				fixed;
+		background-image:url("http://i.imgur.com/O1qAnNq.png");
+		background-size:center;
+		background-position:center;
+		cursor:url("http://i.imgur.com/5AUlLaq.png"),auto;
 	}
 
 		body:after {
@@ -106,7 +102,7 @@
 			opacity: 0;
 			z-index: 1;
 			background-color: #ffffff;
-			background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+			/*background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
 			background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
 			background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
 			background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
@@ -116,7 +112,7 @@
 			-moz-transition: opacity 1.75s ease-out;
 			-webkit-transition: opacity 1.75s ease-out;
 			-ms-transition: opacity 1.75s ease-out;
-			transition: opacity 1.75s ease-out;
+			transition: opacity 1.75s ease-out;*/
 		}
 
 		body.is-loading:after {
@@ -268,7 +264,7 @@
 		margin: 0 0 0.75em 0;
 	}
 
-	input[type="text"],
+	/*input[type="text"],
 	input[type="password"],
 	input[type="email"],
 	input[type="tel"],
@@ -304,9 +300,9 @@
 		select:focus,
 		textarea:focus {
 			border-color: #ff7496;
-		}
+		}*/
 
-	.select-wrapper {
+/*	.select-wrapper {
 		text-decoration: none;
 		display: block;
 		position: relative;
@@ -337,8 +333,8 @@
 
 		.select-wrapper select::-ms-expand {
 			display: none;
-		}
-
+		}*/
+/*
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
@@ -399,10 +395,10 @@
 				position: absolute;
 				text-align: center;
 				top: 0.15em;
-				width: 1.65em;
-			}
+				width: 1.65em;*/
+			/*}*/
 
-		input[type="checkbox"]:checked + label:before,
+		/*input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			color: #ff7496;
 			content: '\f00c';
@@ -420,7 +416,7 @@
 	input[type="radio"] + label:before {
 		border-radius: 100%;
 	}
-
+*/
 	::-webkit-input-placeholder {
 		color: #616f77 !important;
 		opacity: 1.0;
@@ -571,7 +567,7 @@ Icon
 
 			}
 
-		ul.actions {
+		/*ul.actions {
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
@@ -585,7 +581,7 @@ Icon
 
 				ul.actions li:last-child {
 					padding-right: 0;
-				}
+				}*/
 
 	dl {
 		margin: 0 0 1.5em 0;
@@ -601,11 +597,11 @@ Icon
 		}
 
 /* Button */
-
+/*
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
-	button,
+	button,*/
 	.button {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -628,7 +624,7 @@ Icon
 		text-decoration: none;
 		white-space: nowrap;
 	}
-
+/*
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
@@ -694,7 +690,7 @@ Icon
 			-ms-pointer-events: none;
 			pointer-events: none;
 			opacity: 0.5;
-		}
+		}*/
 
 /* Main */
 
@@ -727,12 +723,12 @@ Icon
 			display: block;
 			margin-bottom: 1.5em;
 		}
-
+/*
 			#main .avatar img {
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em #ffffff;
+				box-shadow: 0 0 0 1.5em #ffffff;*/
 			}
 
 			#main .avatar:before {
@@ -741,8 +737,8 @@ Icon
 				position: absolute;
 				top: 50%;
 				left: -3em;
-				width: calc(100% + 6em);
-				height: 1px;
+				/*width: calc(100% + 6em);
+				height: 1px;*/
 				z-index: -1;
 				background: #c8cccf;
 			}
@@ -755,9 +751,9 @@ Icon
 				padding: 4em 2em 2.5em 2em ;
 			}
 
-				#main .avatar:before {
+				/*#main .avatar:before {
 					left: -2em;
-					width: calc(100% + 4em);
+					width: calc(100% + 4em);*/
 				}
 
 		}
