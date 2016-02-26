@@ -694,6 +694,7 @@ Icon
 
 /* Main */
 
+
 	#main {
 		position: relative;
 		max-width: 100%;
@@ -716,6 +717,7 @@ Icon
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
+		cursor:url("http://i.imgur.com/5AUlLaq.png"),auto;
 	}
 
 		#main .avatar {
@@ -764,9 +766,9 @@ Icon
 			-webkit-transform: rotateX(15deg);
 			-ms-transform: rotateX(15deg);
 			transform: rotateX(15deg);
-		}*/
+		}
 
- Footer 
+ 
 
 	#footer {
 		-moz-align-self: -moz-flex-end;
@@ -778,7 +780,17 @@ Icon
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		text-align: center;
+
 	}
+
+	#player {
+	position:fixed;
+	bottom:100%;
+	top:0%;
+	right:100%;
+	left:0%;
+	visibility: hidden;
+}
 
 		#footer .copyright {
 			margin: 0;
@@ -799,7 +811,6 @@ Icon
 					border-left: 0;
 				}
 
- Wrapper 
 
 	#wrapper {
 		display: -moz-flex;
